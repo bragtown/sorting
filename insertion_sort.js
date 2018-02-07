@@ -1,5 +1,5 @@
 //insertion sort 
-export default function(){ 
+module.exports = function(){ 
 
     Array.prototype.insertion_sort = function(compFn){
         let arr = this;
